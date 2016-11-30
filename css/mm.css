@@ -29,20 +29,34 @@
 }
 
 .social-ico{
-    background-image:url("../img/phone-ico.png");
+    background:url("../img/phone-ico.png");
     background-repeat: no-repeat;
     text-align: center;
     line-height: 13px;
-    font-size: 20px;
-    padding-left: 60px;
+    font-size: 18px;
+    padding-left: 40px;
     margin-left: 5px;
     height: 55px;
     position: absolute;
-    padding-top: 20px;
+    padding-top: 10px;
     color: #ffffff;
     font-weight: bolder;
 }
 
-.carousel a img{
-    max-width:100%;
+
+.header-social-ico{
+    background: url(../img/phone-ico1.png) 100% 50%;
+    background-repeat: no-repeat;
+    text-align: left;
+    line-height: 13px;
+    font-size: 20px;
+    padding-right: 60px;
+    margin-left: 5px;
+    margin-top: 20px;
+    height: 55px;
+    position: absolute;
+    padding-top: 20px;
+    color: #000;
+    font-weight: bolder;
+    right: 0;
 }
