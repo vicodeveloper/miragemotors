@@ -1,0 +1,48 @@
+.menu_bg{
+    background-color: #222222 !important;
+
+}
+.menu_bg ul li a{
+    color: #9F9F9F;
+}
+
+.menu_desc li a:hover{
+    color: #ffffff !important;
+    background-color: #283593 !important;
+}
+
+.active a{
+    background-color: #ff2347 !important;
+    color: #ffffff !important;
+}
+
+.main_header{
+    margin-top: 5px; margin-bottom: 5px
+}
+
+.no-margin-bottom{
+    margin-bottom: 0 !important;
+}
+
+.no-shadow{
+    box-shadow: none !important;
+}
+
+.social-ico{
+    background-image:url("../img/phone-ico.png");
+    background-repeat: no-repeat;
+    text-align: center;
+    line-height: 13px;
+    font-size: 20px;
+    padding-left: 60px;
+    margin-left: 5px;
+    height: 55px;
+    position: absolute;
+    padding-top: 20px;
+    color: #ffffff;
+    font-weight: bolder;
+}
+
+.carousel a img{
+    max-width:100%;
+}
