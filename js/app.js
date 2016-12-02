@@ -16,7 +16,5 @@ $('.slider').slider({
 
 $('.carousel').carousel({
     full_width:true,
-    padding:30,
-    indicators:false,
-    shift: 3
+    padding:5
 });
