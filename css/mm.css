@@ -16,6 +16,11 @@
     color: #ffffff !important;
 }
 
+.active2 a{
+    background-color: #16518c !important;
+    color: #ffffff !important;
+}
+
 .main_header{
     margin-top: 5px; margin-bottom: 5px
 }
@@ -43,12 +48,14 @@
     font-weight: bolder;
 }
 
-
+.social-margin-top{
+    margin-top: 20px;
+}
 .header-social-ico{
     background: url(../img/phone-ico1.png) 100% 50%;
     background-repeat: no-repeat;
     text-align: left;
-    line-height: 13px;
+    line-height: 20px;
     font-size: 20px;
     padding-right: 60px;
     margin-left: 5px;
@@ -58,5 +65,12 @@
     padding-top: 20px;
     color: #000;
     font-weight: bolder;
-    right: 0;
+    right: -40px;
+}
+
+.header-p{
+    font-weight: 600;
+    color: darkblue;
+    text-align: justify;
+    line-height: 20px;
 }

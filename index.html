@@ -20,13 +20,16 @@
     <body>
 
     <header>
-        <div class="container hide-on-small-only" >
+        <div class="container hide-on-small-only">
             <!-- main Header -->
             <div class="row main_header">
-                <div class="col s12 m6 l4 ">
+                <div class="col s12 m6 l3">
                     <img src="img/logo.png">
                 </div>
-                <div class="col s12 m6 l8">
+                <div class="col s12 m6 l5 ">
+                    <p class="header-p">Iti oferim piesa cautata,<br />de cea mai buna calitate,<br /> in cel mai scurt timp</p>
+                </div>
+                <div class="col s12 m6 l4">
                     <div class="container" style="position: relative">
                         <span class="header-social-ico">+(373) 69-017-172</span>
                     </div>
@@ -39,17 +42,31 @@
                 <nav class="grey darken menu_bg">
                     <div class="nav-wrapper menu_bg container">
                         <a href="#" class="brand-logo center hide-on-large-only">Bine ati venit!</a>
-                        <ul id="nav-mobile" class="left hide-on-med-and-down menu_desc">
+                        <ul class="left hide-on-med-and-down menu_desc">
                             <li class="active"><a class="waves-effect" href="#">О нас</a></li>
                             <li><a class="waves-effect" href="#">Продукция</a></li>
                             <li><a class="waves-effect" href="#">Брэнды</a></li>
                             <li><a class="waves-effect" href="#">Доставка</a></li>
                             <li><a class="waves-effect" href="#">Контакты</a></li>
                         </ul>
-                        <ul id="slide-out" class="side-nav hide-on-large-only">
+                        <!-- Dropdown Trigger -->
+                        <ul id="nav-mobile" class="right hide-on-med-and-down menu_desc menu_bg">
+                            <!-- Dropdown Trigger -->
+                            <li><a class="dropdown-button" href="#" data-activates="dropdown1">Язык сайта<i class="material-icons right">arrow_drop_down</i></a></li>
+                        </ul>
+
+                        <!-- Dropdown Structure -->
+                        <ul id="dropdown1" class="dropdown-content menu_desc menu_bg">
+                            <li class="active2"><a href="#!">Русский</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#">Русский</a></li>
+                            <li><a href="#">Română</a></li>
+                        </ul>
+                        <ul id="slide-out" class="left side-nav hide-on-large-only">
                             <li><div class="userView">
                                 <a href="index.html"><img src="img/logo.png"></a>
                             </div></li>
+                            <li> <a href="#" class="black-text"><i class="black-text material-icons">phone</i> +(373) 069-017-172</a></li>
                             <li><a class="waves-effect" href="#">О нас</a></li>
                             <li><a class="waves-effect" href="#">Продукция</a></li>
                             <li><a class="waves-effect" href="#">Брэнды</a></li>
@@ -102,7 +119,7 @@
             </p>
         </div>
     </div>
-    <div class="container">
+    <div class="container center">
         <div class="carousel">
             <a class="carousel-item" href="#"><img src="img/brands/ajusa.jpg"></a>
             <a class="carousel-item" href="#"><img src="img/brands/ngk.jpg"></a>
@@ -322,8 +339,8 @@
         <div class="container">
             <div class="row">
                 <div class="col m6 s12 center-on-small-only">
-                   <div class="">
-                       <div class=" ">
+                   <div class="left-align">
+                       <div class="social-margin-top">
                            <a href="https://www.facebook.com/MIRAGEMOTORSSRL/" target="_blank"><img src="img/fb-social.png"></a>
                            <a href="https://www.youtube.com/channel/UCf4Errb9Cgal78Dge0NJ2KQ" target="_blank"><img src="img/youtube-ico.png"></a>
                            <a href="mailto:miragemotors@bk.ru" target="_blank"><img src="img/email-ico.png"></a>
@@ -348,8 +365,13 @@
         </div>
         <div class="footer-copyright">
             <div class="container">
-                © 2016 Copyright MirageMotors
-                <a class="grey-text text-lighten-4 right center-on-small-only" href="http://vico-developer.com" target="_blank">Developer by ViCO Developer</a>
+                <div class="col s12 l5 left center-on-small-only">© 2016 Copyright MirageMotors</div>
+                <hr class="hide-on-med-and-up">
+                <div class="col s12 l5 center-on-small-only">
+                    <a class="right" href="http://vico-developer.com" target="_blank" style="padding-bottom: 10px;">
+                        <img src="img/mini-logo-vico.png" alt="Designer and Coding by ViCO Developer">
+                    </a>
+                </div>
             </div>
         </div>
     </footer>
