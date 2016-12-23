@@ -1,4 +1,6 @@
 # miragemotors
 html-template
 
-Uploadet 30.11.2016
+Final template v. 1.8.0
+
+by ViCO Developer
