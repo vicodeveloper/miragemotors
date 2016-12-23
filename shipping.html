@@ -45,9 +45,9 @@
                         <ul class="left hide-on-med-and-down menu_desc">
                             <li><a class="waves-effect" href="#">О нас</a></li>
                             <li><a class="waves-effect" href="#">Продукция</a></li>
-                            <li class="active"><a class="waves-effect" href="#">Услуги</a></li>
+                            <li><a class="waves-effect" href="#">Услуги</a></li>
                             <li><a class="waves-effect" href="#">Брэнды</a></li>
-                            <li><a class="waves-effect" href="#">Доставка</a></li>
+                            <li class="active"><a class="waves-effect" href="#">Доставка</a></li>
                             <li><a class="waves-effect" href="#">Контакты</a></li>
                         </ul>
                         <!-- Dropdown Trigger -->
@@ -83,24 +83,82 @@
     </header>
 
     <div class="container">
-        <div class="row">
-            <div class="col s12 m3">
-                <div id="jquery-accordion-menu" class="jquery-accordion-menu black">
-                    <ul id="demo-list">
-                        <li><a href="#">Asigurari RCA</a></li>
-                        <li><a href="#">CARTE VERDE </a></li>
-                        <li><a href="#">Servicii auto </a></li>
-                    </ul>
-                </div> <!-- cd-accordion-menu -->
+        <div class="row ">
+            <h4 class="center-align">ДОСТАВКА ЗАКАЗА</h4>
+            <div class="col s12 m7 " style="margin-top: 5px;">
+                <div>
 
+                    <p style="text-align:justify">
+                        Вы можете получить заказ непосредственно в офисе представительства в вашем городе. Или, в случае доступности курьерской доставки, получить заказ курьером.
+                    </p>
+
+
+                    <img src="http://s.exist.ru/img/icon/sam.png">
+                    <br>
+                    <p style="font-weight: bold;padding-bottom:10px;font-size:16px;margin-bottom:10px;">Самовывоз</p>
+                    <p style="text-align: justify; margin-left: 10px">
+                        Этот способ следует выбирать, если Вы сможете забрать заказ самостоятельно или через доверенное лицо в офисе регистрации.
+                    </p>
+
+                    <br>
+                    <img src="http://s.exist.ru/img/icon/kur.png">
+                    <br>
+                    <p style="font-weight: bold;padding-bottom:10px;font-size: 16px; margin-bottom: 10px;">
+                        Курьер</p>
+                    <p style="text-align: justify; margin-left: 10px">
+                        Доставка курьером  есть не во всех регионах. Для уточнения возможности доставки курьером обращайтесь, пожалуйста, к Вашему <a href="#">персональному менеджеру</a>
+                    </p>
+                    <br>
+
+                    <img src="http://s.exist.ru/img/icon/trk.png">
+                    <br>
+
+                    <p style="font-weight: bold;padding-bottom:10px;font-size: 16px;margin-bottom: 10px;">
+                        Транспортная компания</p>
+
+                    <p style="text-align: justify; margin-left: 10px">
+                        Этот способ может быть выбран если в вашем регионе пока не открыто представительство EXIST.RU  и вы работаете напрямую с офисом в Москве. При этом способе доставки заказ отправляется авиа-, авто- или железнодорожным транспортом, в зависимости от того, какая схема доставки в Ваш регион принята на данный момент.
+                    </p>
+
+                    <img src="http://s.exist.ru/img/icon/dhl.png">
+                    <br>
+
+                    <p style="font-weight: bold;padding-bottom:10px;font-size: 16px;">
+                        DHL</p>
+
+                    <p style="text-align: justify; margin-left: 10px">
+                        В некоторые регионы России доставка может быть осуществлена транспортной компанией DHL. Для уточнения пожалуйста обращайтесь к вашему менеджеру.
+                    </p>
+                </div>
             </div>
-            <div class="col s12 m9" style="margin-top: 5px;">
-                <h5>Asigurari RCA</h5>
-                <div class="divider"></div>
-                        <p>De cele mai multe ori, soferii care circula pe drumurile publice sunt expusi riscului, fiind implicati in accidente de circulatie provocate de ei insisi sau de ceilalti participanti la trafic.<br><br>Se poate intampla ca, doar dintr-o mica neatentie la volan, un conducator auto sa produca <strong>daune de o valoare ridicata</strong> si pe care <strong>el trebuie sa le plateasca</strong>. Lipsa sumelor necesare ar duce, insa, la litigii, uneori de lunga durata si cu costuri mari, sau ar atrage alte tipuri de sanctiuni asupra sa. In plus, asigurarea <strong>R</strong><strong>CA este obligatorie</strong>.</p>
-                        <p>Asigurarea obligatorie de raspundere civila auto <strong>este metoda de protectie</strong> prin care sunt despagubiti tertii prejudiciati in urma unui accident auto, fie ca este vorba de daune la autovehicule, vatamari corporale, decese sau pagube aduse proprietatilor.</p>
-                        <p>Aceasta are un <strong>scop</strong> bine definit: cel pagubit sa primeasca in mod obligatoriu despagubiri pentru daunele suferite.&nbsp;</p>
-                        <p>Pe de alta parte, ca sa iti protejezi masina ta, ai nevoie de o asigurare&nbsp;<strong>Casco</strong>.</p>
+
+            <div class="col s12 m5">
+                <form class="col s12 m12">
+                    <p class="center-align">Sau, completati forma de mai jos si consultantul nostru va face legatura cu dvs.</p>
+                    <div class="row">
+                        <div class="input-field col s6">
+                            <input id="first_name" type="text" name="name" class="validate">
+                            <label for="first_name">Имя</label>
+                        </div>
+                        <div class="input-field col s6">
+                            <input id="phone1" type="number" name="phone" class="validate">
+                            <label for="phone1">Number</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input id="email" type="email" name="email" class="validate">
+                            <label for="email">Email</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <textarea name="message" placeholder="Ваше сообшение или вопрос!" id="textarea1" class="materialize-textarea validate"></textarea>
+                            <label for="textarea1"></label>
+                        </div>
+                    </div>
+                    <button class="btn waves-effect waves-light" type="submit" name="action">Отправить</button>
+                </form>
             </div>
         </div>
     </div>

@@ -45,10 +45,10 @@
                         <ul class="left hide-on-med-and-down menu_desc">
                             <li><a class="waves-effect" href="#">О нас</a></li>
                             <li><a class="waves-effect" href="#">Продукция</a></li>
-                            <li class="active"><a class="waves-effect" href="#">Услуги</a></li>
+                            <li><a class="waves-effect" href="#">Услуги</a></li>
                             <li><a class="waves-effect" href="#">Брэнды</a></li>
                             <li><a class="waves-effect" href="#">Доставка</a></li>
-                            <li><a class="waves-effect" href="#">Контакты</a></li>
+                            <li class="active"><a class="waves-effect" href="#">Контакты</a></li>
                         </ul>
                         <!-- Dropdown Trigger -->
                         <ul id="nav-mobile" class="right hide-on-med-and-down menu_desc menu_bg">
@@ -83,24 +83,49 @@
     </header>
 
     <div class="container">
-        <div class="row">
-            <div class="col s12 m3">
-                <div id="jquery-accordion-menu" class="jquery-accordion-menu black">
-                    <ul id="demo-list">
-                        <li><a href="#">Asigurari RCA</a></li>
-                        <li><a href="#">CARTE VERDE </a></li>
-                        <li><a href="#">Servicii auto </a></li>
-                    </ul>
-                </div> <!-- cd-accordion-menu -->
-
+        <div class="row ">
+            <h4 class="center-align">Ne puteti gasi aici:</h4>
+            <div class="col s12 m7 " style="margin-top: 5px;">
+                <iframe class="valign" style=";border:0; margin-bottom: 0;" src="//www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20767.456571171286!2d28.855633616768934!3d47.09554801584565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf1f8f620e2fe3092!2z0KHRgtCw0LLRh9C10L3Riw!5e1!3m2!1sru!2s!4v1480195541228" width="100%" height="560px" frameborder="0" allowfullscreen></iframe>
             </div>
-            <div class="col s12 m9" style="margin-top: 5px;">
-                <h5>Asigurari RCA</h5>
-                <div class="divider"></div>
-                        <p>De cele mai multe ori, soferii care circula pe drumurile publice sunt expusi riscului, fiind implicati in accidente de circulatie provocate de ei insisi sau de ceilalti participanti la trafic.<br><br>Se poate intampla ca, doar dintr-o mica neatentie la volan, un conducator auto sa produca <strong>daune de o valoare ridicata</strong> si pe care <strong>el trebuie sa le plateasca</strong>. Lipsa sumelor necesare ar duce, insa, la litigii, uneori de lunga durata si cu costuri mari, sau ar atrage alte tipuri de sanctiuni asupra sa. In plus, asigurarea <strong>R</strong><strong>CA este obligatorie</strong>.</p>
-                        <p>Asigurarea obligatorie de raspundere civila auto <strong>este metoda de protectie</strong> prin care sunt despagubiti tertii prejudiciati in urma unui accident auto, fie ca este vorba de daune la autovehicule, vatamari corporale, decese sau pagube aduse proprietatilor.</p>
-                        <p>Aceasta are un <strong>scop</strong> bine definit: cel pagubit sa primeasca in mod obligatoriu despagubiri pentru daunele suferite.&nbsp;</p>
-                        <p>Pe de alta parte, ca sa iti protejezi masina ta, ai nevoie de o asigurare&nbsp;<strong>Casco</strong>.</p>
+
+            <div class="col s12 m5">
+                <ul class="collapsible" data-collapsible="accordion">
+                    <li>
+                        <div class="collapsible-header"><i class="material-icons">contact_phone</i> Adresa noastra:</div>
+                        <div class="collapsible-body"><p>com.Stauceni str.A.Mateevici 79/1</p></div>
+                    </li>
+                    <li>
+                        <div class="collapsible-header"><i class="material-icons">place</i> Telefon de contact:</div>
+                        <div class="collapsible-body"><p>+373 69017172</p></div>
+                    </li>
+                </ul>
+                <form class="col s12 m12">
+                    <p class="center-align">Sau, completati forma de mai jos si consultantul nostru va face legatura cu dvs.</p>
+                    <div class="row">
+                        <div class="input-field col s6">
+                            <input id="first_name" type="text" name="name" class="validate">
+                            <label for="first_name">Имя</label>
+                        </div>
+                        <div class="input-field col s6">
+                            <input id="phone1" type="number" name="phone" class="validate">
+                            <label for="phone1">Number</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input id="email" type="email" name="email" class="validate">
+                            <label for="email">Email</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <textarea name="message" placeholder="Ваше сообшение или вопрос!" id="textarea1" class="materialize-textarea validate"></textarea>
+                            <label for="textarea1"></label>
+                        </div>
+                    </div>
+                    <button class="btn waves-effect waves-light" type="submit" name="action">Отправить</button>
+                </form>
             </div>
         </div>
     </div>
