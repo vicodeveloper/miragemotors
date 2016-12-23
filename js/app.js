@@ -16,5 +16,9 @@ $('.slider').slider({
 
 $('.carousel').carousel({
     full_width:true,
-    padding:5
+    padding:20,
+    shift: 10
 });
+
+$(".dropdown-button").dropdown();
+
